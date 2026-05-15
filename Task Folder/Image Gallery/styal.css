@@ -1,1 +1,19 @@
-
+img {
+    height: 105px;
+    width: 105px;
+    margin: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 2px 2px 4px 1px black;
+}
+.containor{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 105px 105px 105px;
+    grid-template-rows: 105px 105px 105px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+h1{
+    text-align: center;
+}
