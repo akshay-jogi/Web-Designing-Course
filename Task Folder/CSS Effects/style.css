@@ -1,0 +1,29 @@
+.hover-btn:hover {
+    background-color: #10c94d;
+    color: white;
+}
+
+.focus-input:focus{
+    border: 2px solid #10c94d;
+    outline: none;
+}
+
+.active-btn:active {
+    background-color: #10c94d;
+    color: white;
+}
+
+.visited-link:visited {
+    color: #10c94d;
+}
+
+.disabled-btn:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.checkbox-label:checked + #input {
+    background-color: #10c94d;
+    border: 5px solid #10c94d;
+}
